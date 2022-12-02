@@ -1,1 +1,1 @@
-web: cd Frontent && node server.js
+web: cd Frontend && node server.js
