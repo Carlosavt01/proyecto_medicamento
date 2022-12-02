@@ -8,9 +8,9 @@ const PORT = process.env.PORT || 3000
 app.use(express.static('./dist/'));
 
 app.get('*', (req, res) =>
-    res.sendFile('./dist/index.html', 
+    res.sendFile('./dist/index.html')
     // {root: 'dist/'}
-    ),
+    // ),
 );
 
 // Start the app by listening on the default Heroku port
