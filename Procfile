@@ -1,1 +1,1 @@
-web: cd Frontend/material-dashboard-angular2 && node server.js
+web: cd ./Frontend/material-dashboard-angular2 && node server.js
