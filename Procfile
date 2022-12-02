@@ -1,0 +1,1 @@
+web: cd Frontent && node server.js
